@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="ts.js"></script>
+    <style>
+        .tdo {
+            font-family: 'Luckiest Guy';
+            text-align: center;
+            text-shadow: 3px 3px 5px black;
+            color: white;
+        }
+        
+        .tdo2 {
+            font-family: 'Luckiest Guy';
+            text-shadow: 3px 3px 5px black;
+            color: white;
+        }
+        
+        body {
+            background: rgb(54, 224, 237);
+            background: radial-gradient(circle, rgba(54, 224, 237, 1) 0%, rgba(64, 246, 247, 1) 0%, rgba(70, 77, 252, 1) 92%, rgba(68, 143, 250, 1) 100%);
+        }
+        
+        .text-success {
+            font-size: large;
+            text-shadow: 3px 3px 5px black;
+        }
+        
+        .tdo3 {
+            font-family: 'Luckiest Guy';
+            text-shadow: 3px 3px 5px black;
+            margin: 3px;
+        }
+    </style>
+
+    <title>To Do List</title>
+</head>
+
+<body>
+    <header class="text-white p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="tdo">ToDo List</h1>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mt-3">
+        <h2 class="tdo2">Add Items</h2>
+
+        <label id="a1" class="text-success">
+		</label>
+
+        <form id="Formname">
+            <div class="row">
+                <div class="col-lg-6 col-md-7 col-sm-7">
+
+                    <input type="text" onkeyup="toggleButton(this, 'submit')" class="form-control " id="item">
+                </div>
+
+                <div class="col-lg-5 col-md-5 col-sm-5">
+                    <input type="submit" class="btn btn-danger tdo2" id="submit" value="Submit" disabled>
+                </div>
+            </div>
+        </form>
+        <br>
+        <br>
+        <br>
+        <h3 class="mt-4 tdo2">Tasks</h3>
+
+        <form id="Formname">
+            <ul class="list-group" id="items"></ul>
+        </form>
+    </div>
+</body>
+
+</html>
