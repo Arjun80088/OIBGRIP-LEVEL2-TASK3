@@ -2,4 +2,4 @@ simple todo list using HTML,CSS,Javascript
 
 
 
-![image](https://user-images.githubusercontent.com/104100117/210110153-e1d212c9-2e81-48df-a945-d1f85ffef9da.png)
+![Screenshot (12)](https://user-images.githubusercontent.com/104100117/210110251-4f113002-cd2a-4ce4-8d62-060d4f9fee2b.png)
